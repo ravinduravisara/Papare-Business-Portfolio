@@ -8,6 +8,7 @@
     "build": "tsc",
     "start": "node dist/server.js",
     "seed": "tsx src/seeds/seed.ts",
+    "reset-admin": "tsx src/scripts/resetAdmin.ts",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
   },
@@ -46,4 +47,3 @@
     "vitest": "^3.0.5"
   }
 }
-
